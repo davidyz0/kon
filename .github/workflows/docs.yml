@@ -21,7 +21,7 @@ jobs:
         run: |
           cargo doc --no-deps --features xx-doc \
             --package log --package enumflags2 --package num-traits \
-            --package xx-macro-support --package xx-macros --package xx-core
+            --package xx-macros --package xx-proc-macros --package xx-core
           echo '<meta http-equiv="refresh" content="0; url=xx_core">' > target/doc/index.html
           rm target/doc/.lock
       - name: Upload pages
