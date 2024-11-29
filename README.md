@@ -6,7 +6,7 @@
 
 Core modules.
 
-[Documentation](https://davidyz0.github.io/xx-core) (Partially documented, still WIP)
+[Documentation](https://davidyz0.github.io/kon) (Partially documented, still WIP)
 
 - Async library
 - Macros
